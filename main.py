@@ -1,5 +1,6 @@
 from modules.arithmetic import *
 from modules.reverse import *
+from modules.fire import *
 print(add(5, 6))
 print(subtract(5, 6))
 print(multiply(5, 6))
