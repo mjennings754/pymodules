@@ -4,6 +4,7 @@ from modules.fire import *
 from modules.strings import *
 from modules.magic import *
 from modules.rcalc import *
+from modules.smile import *
 print(add(5, 6))
 print(subtract(5, 6))
 print(multiply(5, 6))
@@ -18,3 +19,4 @@ print(radd(5, 454))
 print(rsubtract(5, 454))
 print(rmultiply(5, 454))
 print(rdivide(5, 454))
+print(show_smile())
