@@ -1,3 +1,6 @@
 import os
 def burn(path):
-    os.remove(path)
+    try:
+        os.remove(path)
+    except FileNotFoundError:
+        pass
