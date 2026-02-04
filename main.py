@@ -6,6 +6,7 @@ from modules.magic import *
 from modules.rcalc import *
 from modules.smile import *
 from modules.fact import *
+from modules.cf import *
 print(add(5, 6))
 print(subtract(5, 6))
 print(multiply(5, 6))
@@ -22,3 +23,4 @@ print(rmultiply(5, 454))
 print(rdivide(5, 454))
 print(show_smile())
 fun_fact()
+convert_celsius_to_fahrenheit(10)
