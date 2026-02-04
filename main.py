@@ -3,6 +3,7 @@ from modules.reverse import *
 from modules.fire import *
 from modules.strings import *
 from modules.magic import *
+from modules.rcalc import *
 print(add(5, 6))
 print(subtract(5, 6))
 print(multiply(5, 6))
@@ -13,3 +14,4 @@ print(reverse_string('hello'))
 print(reverse_list((1, 2, 3, 4, 5, 6, 7, 8)))
 print(camelCase("string"))
 print(disappear("ndaksjnjskadnbsajkdbashkjdbasjhldbhjbasjhdsab"))
+print(add(5, 454))
