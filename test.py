@@ -34,5 +34,6 @@ class TestArithmeticMethods(unittest.TestCase):
 
     def test_convert_celsius_to_fahrenheit(self):
         assert convert_celsius_to_fahrenheit(10) == 50
+
 if __name__ == '__main__':
     unittest.main()
