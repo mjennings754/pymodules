@@ -35,5 +35,15 @@ class TestArithmeticMethods(unittest.TestCase):
     def test_convert_celsius_to_fahrenheit(self):
         assert convert_celsius_to_fahrenheit(10) == 50
 
+    # REVERSE
+
+    def test_reverse_string(self):
+        result = reverse_string("hello")
+        assert result == "olleh"
+
+    def test_reverse_list(self):
+        result = reverse_list((1, 2, 3, 4, 5, 6, 7, 8))
+        assert result == (8, 7, 6, 5, 4, 3, 2, 1)
+
 if __name__ == '__main__':
     unittest.main()
